@@ -1,3 +1,7 @@
+# vimgui-libs
+
+Prebuilt binaries for [vimgui](https://github.com/funatsufumiya/vimgui)
+
 ## Build
 
 ```bash
@@ -8,4 +12,5 @@ $ cmake -B build -DCMAKE_BUILD_TYPE=Debug
 $ cmake --build build --parallel 8 --config Debug
 $ cmake -B build -DCMAKE_BUILD_TYPE=Release
 $ cmake --build build --parallel 8 --config Release
+
 ```
